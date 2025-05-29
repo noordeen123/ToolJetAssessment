@@ -38,7 +38,7 @@ describe('Validating CRUD Operations on App', () => {
             .find('[data-cy="app-card-menu-icon"]')
             .click({ force: true });
 
-        cy.intercept('GET', '**/api/apps?page=1&folder=&searchKey=').as('getApp');
+        cy.intercept('GET', '**/api/apps?page=1&folder=&searchKey=&type=front-end').as('getApp');
 
         cy.get('[data-cy="rename-app-card-option"]').click();
         cy.get('[data-cy="app-name-input"]').clear().type(newAppName);
@@ -75,4 +75,36 @@ describe('Validating CRUD Operations on App', () => {
         cy.contains('App deleted successfully.').should('be.visible');
         cy.get(`[data-cy="${appName}-card"]`).should('not.exist');
     });
+
+    it('should able to create app via uploading template', () => {
+        cy.intercept('POST', '**/api/v2/resources/import').as('importApp');
+
+        cy.get('[data-cy="import-dropdown-menu"]').click();
+        cy.get('[data-cy="import-option-input"]').selectFile("cypress/downloads/template.json", { force: true });
+        cy.get('[data-cy="app-name-input"]').clear().type(appName);
+        cy.get('[data-cy="import-app"]').click();
+
+        //Validate success message
+        cy.contains('App imported successfully.').should('be.visible');
+
+        // Wait for the app import request to complete and validate the response
+        cy.wait('@importApp').then(({ response }) => {
+            expect(response.statusCode).to.eq(201);
+            expect(response.body.imports.app[0]).to.have.property('name', appName);
+            appId = response.body.imports.app[0].id;
+        });
+
+        cy.intercept('GET', '**/api/apps?page=1&folder=&searchKey=&type=front-end').as('getApp');
+        cy.go('back');
+
+        // Wait for the apps to load and validate the response
+        cy.wait('@getApp').then(({ response }) => {
+            expect(response.statusCode).to.eq(200);
+            const importedApp = response.body?.apps?.find?.(app => app.id === appId);
+            expect(importedApp?.name).to.eq(appName);
+        });
+
+        // Validate the app creation in the UI
+        cy.get(`[data-cy="${appName}-card"]`).should('be.visible');
+    })
 });

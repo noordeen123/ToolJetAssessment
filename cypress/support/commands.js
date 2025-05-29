@@ -26,8 +26,8 @@
 
 //Login to ToolJet with predefined credentials
 Cypress.Commands.add('loginToolJet', () => {
-    cy.visit('https://v3-lts-cetestsystem.tooljet.com/cy-qa')
-    cy.get('#email').type('email@example.com') // Replace with your actual email
+    cy.visit('https://v3-lts-eetestsystem.tooljet.com/qa-automation')
+    cy.get('#email').type('example@tooljet.com') // Replace with your actual email
     cy.get('#password').type('password', { force: true }) // Replace with your actual password
     cy.get('[type="submit"]').click({ force: true })
 })

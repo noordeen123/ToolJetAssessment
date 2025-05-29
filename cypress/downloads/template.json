@@ -1,0 +1,1197 @@
+{
+  "app": [
+    {
+      "definition": {
+        "appV2": {
+          "type": "front-end",
+          "id": "8fb5fad3-825f-4c1f-89e0-73b846b3a429",
+          "name": "TestApp_1748498981912",
+          "slug": "8fb5fad3-825f-4c1f-89e0-73b846b3a429",
+          "isPublic": false,
+          "isMaintenanceOn": false,
+          "icon": "apps",
+          "organizationId": "1fed6302-2cdc-4027-8e92-2616dd5f0c71",
+          "currentVersionId": null,
+          "userId": "056ace22-eae8-445c-8d23-7db95f958235",
+          "workflowApiToken": null,
+          "workflowEnabled": false,
+          "createdAt": "2025-05-29T06:09:56.384Z",
+          "creationMode": "DEFAULT",
+          "updatedAt": "2025-05-29T06:09:56.670Z",
+          "editingVersion": {
+            "id": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+            "name": "v1",
+            "definition": null,
+            "globalSettings": {
+              "hideHeader": true,
+              "appInMaintenance": false,
+              "canvasMaxWidth": 100,
+              "canvasMaxWidthType": "%",
+              "canvasMaxHeight": 2400,
+              "canvasBackgroundColor": "#edeff5",
+              "backgroundFxQuery": "",
+              "appMode": "auto"
+            },
+            "pageSettings": {
+              "properties": {
+                "disableMenu": {
+                  "value": "{{true}}",
+                  "fxActive": false
+                }
+              }
+            },
+            "showViewerNavigation": false,
+            "homePageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+            "appId": "8fb5fad3-825f-4c1f-89e0-73b846b3a429",
+            "currentEnvironmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+            "promotedFrom": null,
+            "createdAt": "2025-05-29T06:09:56.402Z",
+            "updatedAt": "2025-05-29T06:09:56.650Z"
+          },
+          "components": [
+            {
+              "id": "2c432a31-69f7-4c55-893a-88bb0b12111a",
+              "name": "container1",
+              "type": "Container",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#ffffffff"
+                },
+                "borderRadius": {
+                  "value": "10"
+                },
+                "borderColor": {
+                  "value": "#ffffff00",
+                  "fxActive": false
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "864e1129-afe0-45e5-9683-fe875cdc0903",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 41,
+                  "height": 70,
+                  "componentId": "2c432a31-69f7-4c55-893a-88bb0b12111a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "2ee7632e-8175-4756-9519-931cc923c75b",
+              "name": "text1",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "2c432a31-69f7-4c55-893a-88bb0b12111a",
+              "properties": {
+                "text": {
+                  "value": "B R A N D"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000",
+                  "fxActive": false
+                },
+                "textSize": {
+                  "value": "{{24}}"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "61c138a9-6b98-4cee-995b-48321f508a31",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 1,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "2ee7632e-8175-4756-9519-931cc923c75b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "f99fd835-2799-4bfd-bcba-7df7da1c9a71",
+              "name": "text2",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "2c432a31-69f7-4c55-893a-88bb0b12111a",
+              "properties": {
+                "text": {
+                  "value": "<div style=\"font-weight: 600;\">AI Code Explainer</div>"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textColor": {
+                  "value": "#000",
+                  "fxActive": false
+                },
+                "textSize": {
+                  "value": "{{20}}"
+                },
+                "textAlign": {
+                  "value": "right"
+                },
+                "boxShadow": {
+                  "value": "0px 0px 0px 0px #00000040"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "ff630841-658a-417e-83af-5b219e12fc39",
+                  "type": "desktop",
+                  "top": 10,
+                  "left": 25,
+                  "width": 17,
+                  "height": 40,
+                  "componentId": "f99fd835-2799-4bfd-bcba-7df7da1c9a71",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "name": "container2",
+              "type": "Container",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": null,
+              "properties": {},
+              "general": {},
+              "styles": {
+                "borderRadius": {
+                  "value": "10"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "cae55170-0585-4ef8-9e50-7b5ce84c33ee",
+                  "type": "desktop",
+                  "top": 110,
+                  "left": 1,
+                  "width": 41,
+                  "height": 620,
+                  "componentId": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "8c2105c3-57d6-428e-9075-f175c5c744be",
+                  "type": "mobile",
+                  "top": 110,
+                  "left": 1,
+                  "width": 5,
+                  "height": 200,
+                  "componentId": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "5bf631dd-abd6-4fd5-88b2-9bcc874bff1e",
+              "name": "text3",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "Code to be explained"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "1076dea5-c4d1-44fd-b7d6-79e7bae3a160",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 1,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "5bf631dd-abd6-4fd5-88b2-9bcc874bff1e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "a43c9d0b-1da0-4659-b1d4-643fb2c9b105",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 9,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "5bf631dd-abd6-4fd5-88b2-9bcc874bff1e",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "4c3d7adc-0b5e-4c65-90fa-353d10e6405c",
+              "name": "dropdown1",
+              "type": "DropDown",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "label": {
+                  "value": ""
+                },
+                "value": {
+                  "value": ""
+                },
+                "values": {
+                  "value": "{{queries.caf160ee-0092-4257-b093-786f64f1232c.data.models.map(item => item.name)}}"
+                },
+                "display_values": {
+                  "value": "{{queries.caf160ee-0092-4257-b093-786f64f1232c.data.models.map(item => item.displayName)}}"
+                },
+                "loadingState": {
+                  "value": "{{queries.caf160ee-0092-4257-b093-786f64f1232c.isLoading}}",
+                  "fxActive": true
+                },
+                "placeholder": {
+                  "value": "Select a model"
+                }
+              },
+              "general": {},
+              "styles": {
+                "borderRadius": {
+                  "value": "5"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.634Z",
+              "layouts": [
+                {
+                  "id": "53c37e33-aa1b-47d4-acb3-b0e16ded1581",
+                  "type": "mobile",
+                  "top": 10,
+                  "left": 27,
+                  "width": 18.6046511627907,
+                  "height": 30,
+                  "componentId": "4c3d7adc-0b5e-4c65-90fa-353d10e6405c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "f4e51595-461d-4ddb-8859-d2a58125c8e3",
+                  "type": "desktop",
+                  "top": 480,
+                  "left": 1,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "4c3d7adc-0b5e-4c65-90fa-353d10e6405c",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "2f177020-fda1-47cd-bcef-a4e20ed1a7ef",
+              "name": "textarea1",
+              "type": "TextArea",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "value": {
+                  "value": "function addNumbers(a, b) {\n  return a + b;\n}\n\nconst sum = addNumbers(5, 3);\nconsole.log(sum);"
+                },
+                "placeholder": {
+                  "value": "function addNumbers(a, b) {\n  return a + b;\n}\n\nconst sum = addNumbers(5, 3);\nconsole.log(sum);"
+                }
+              },
+              "general": {},
+              "styles": {
+                "borderRadius": {
+                  "value": "{{5}}"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "6427819c-0579-4c5c-b7b7-ecdf3a2273dc",
+                  "type": "mobile",
+                  "top": 100,
+                  "left": 3,
+                  "width": 13.953488372093023,
+                  "height": 100,
+                  "componentId": "2f177020-fda1-47cd-bcef-a4e20ed1a7ef",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "1683e527-d35a-4981-966a-41d6d038a7bf",
+                  "type": "desktop",
+                  "top": 70,
+                  "left": 1,
+                  "width": 20,
+                  "height": 270,
+                  "componentId": "2f177020-fda1-47cd-bcef-a4e20ed1a7ef",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "4fd8d0cc-079c-4181-a579-b1bc1aa862ba",
+              "name": "button1",
+              "type": "Button",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "Generate explanation >>"
+                },
+                "loadingState": {
+                  "value": "{{false}}",
+                  "fxActive": false
+                },
+                "disabledState": {
+                  "value": "{{components.4c3d7adc-0b5e-4c65-90fa-353d10e6405c.value == undefined || queries.getCodeExplanation.isLoading}}",
+                  "fxActive": true
+                }
+              },
+              "general": {},
+              "styles": {
+                "backgroundColor": {
+                  "value": "#ffffff00"
+                },
+                "textColor": {
+                  "value": "#3e63ddff"
+                },
+                "loaderColor": {
+                  "value": "#3e63ddff"
+                },
+                "borderRadius": {
+                  "value": "{{5}}"
+                },
+                "borderColor": {
+                  "value": "#3e63ddff"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.634Z",
+              "layouts": [
+                {
+                  "id": "87ac8e27-14b2-4221-94d9-f7b8fab8628e",
+                  "type": "mobile",
+                  "top": 420,
+                  "left": 7,
+                  "width": 6.976744186046512,
+                  "height": 30,
+                  "componentId": "4fd8d0cc-079c-4181-a579-b1bc1aa862ba",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "c2d8a07b-51f4-4d2b-8fe1-99466fc37896",
+                  "type": "desktop",
+                  "top": 550,
+                  "left": 1,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "4fd8d0cc-079c-4181-a579-b1bc1aa862ba",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "fe0851a7-8a44-4411-8ca1-b4855e3a5f0a",
+              "name": "dropdown2",
+              "type": "DropDown",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "values": {
+                  "value": "{{[\n  \"\",\n  \"C#\",\n  \"C++\",\n  \"Dart\",\n  \"Elixir\",\n  \"Erlang\",\n  \"F#\",\n  \"Go\",\n  \"Groovy\",\n  \"Haskell\",\n  \"Java\",\n  \"JavaScript\",\n  \"Kotlin\",\n  \"Lua\",\n  \"MATLAB\",\n  \"Objective-C\",\n  \"Perl\",\n  \"PHP\",\n  \"Python\",\n  \"R\",\n  \"Ruby\",\n  \"Rust\",\n  \"Scala\",\n  \"Shell\",\n  \"SQL\",\n  \"Swift\",\n  \"TypeScript\"\n]}}"
+                },
+                "display_values": {
+                  "value": "{{[\n  \"Any language\",\n  \"C#\",\n  \"C++\",\n  \"Dart\",\n  \"Elixir\",\n  \"Erlang\",\n  \"F#\",\n  \"Go\",\n  \"Groovy\",\n  \"Haskell\",\n  \"Java\",\n  \"JavaScript\",\n  \"Kotlin\",\n  \"Lua\",\n  \"MATLAB\",\n  \"Objective-C\",\n  \"Perl\",\n  \"PHP\",\n  \"Python\",\n  \"R\",\n  \"Ruby\",\n  \"Rust\",\n  \"Scala\",\n  \"Shell\",\n  \"SQL\",\n  \"Swift\",\n  \"TypeScript\"\n]}}"
+                },
+                "value": {
+                  "value": ""
+                },
+                "placeholder": {
+                  "value": "Select a language"
+                },
+                "label": {
+                  "value": ""
+                }
+              },
+              "general": {},
+              "styles": {},
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "cf8e9215-c7ee-488c-a79b-d0b807e4f070",
+                  "type": "mobile",
+                  "top": 420,
+                  "left": 2,
+                  "width": 8,
+                  "height": 30,
+                  "componentId": "fe0851a7-8a44-4411-8ca1-b4855e3a5f0a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "3abb62ef-fbe2-4e76-8d1c-05bca2d4924e",
+                  "type": "desktop",
+                  "top": 390,
+                  "left": 1,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "fe0851a7-8a44-4411-8ca1-b4855e3a5f0a",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "f7059169-5372-4b37-8b7b-175ddc7efc83",
+              "name": "text6",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "Language"
+                }
+              },
+              "general": {},
+              "styles": {
+                "fontWeight": {
+                  "value": "bold"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "9fe3caa9-c457-4342-b5e9-1865907ec205",
+                  "type": "desktop",
+                  "top": 360,
+                  "left": 1,
+                  "width": 14,
+                  "height": 30,
+                  "componentId": "f7059169-5372-4b37-8b7b-175ddc7efc83",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "f3f72a40-5ee5-4858-8343-888bfff3cc01",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 4,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "f7059169-5372-4b37-8b7b-175ddc7efc83",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "03a7371b-81e3-41ee-9c2c-ed9fb5639708",
+              "name": "text7",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "{{`<div style=\"padding: 10px;\">${queries.getCodeExplanation.data.candidates ? queries.getCodeExplanation.data.candidates[0].content.parts[0].text : \"<ul> <li><strong>Language:</strong> JavaScript</li> <li><code>function addNumbers(a, b) {</code>: Defines a function named <code>addNumbers</code> that takes two parameters <code>a</code> and <code>b</code>.</li> <li><code>return a + b;</code>: The function returns the sum of <code>a</code> and <code>b</code>.</li> <li><code>}</code>: Ends the function definition.</li> <li><code>const sum = addNumbers(5, 3);</code>: Calls the <code>addNumbers</code> function with arguments <code>5</code> and <code>3</code>, and assigns the result to the constant <code>sum</code>.</li> <li><code>console.log(sum);</code>: Outputs the value of <code>sum</code> to the console, which is <code>8</code>.</li></ul>\"}</div>`}}"
+                },
+                "textFormat": {
+                  "value": "html"
+                },
+                "loadingState": {
+                  "fxActive": true,
+                  "value": "{{queries.8a0532b0-1d14-4640-8911-94e0d09a8695.isLoading}}"
+                }
+              },
+              "general": {},
+              "styles": {
+                "borderColor": {
+                  "value": "#ddddddff"
+                },
+                "borderRadius": {
+                  "value": "5"
+                },
+                "verticalAlignment": {
+                  "value": "top"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.634Z",
+              "layouts": [
+                {
+                  "id": "a2f36906-2167-454d-9de4-00a06e995c84",
+                  "type": "desktop",
+                  "top": 70,
+                  "left": 22,
+                  "width": 20,
+                  "height": 520,
+                  "componentId": "03a7371b-81e3-41ee-9c2c-ed9fb5639708",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "15b3cf79-922a-41dc-9c8a-8032361c60b0",
+                  "type": "mobile",
+                  "top": 290,
+                  "left": 23,
+                  "width": 6,
+                  "height": 40,
+                  "componentId": "03a7371b-81e3-41ee-9c2c-ed9fb5639708",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "f87b4f57-f4c9-4c59-acc9-e0f521cbd40b",
+              "name": "text8",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "Gemini Model"
+                }
+              },
+              "general": {},
+              "styles": {
+                "fontWeight": {
+                  "value": "bold"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "92097268-c01f-4fd3-ad79-88c9d894544a",
+                  "type": "mobile",
+                  "top": 70,
+                  "left": 4,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "f87b4f57-f4c9-4c59-acc9-e0f521cbd40b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "8fff49f0-9798-4f67-91cf-9f8ad2177dc8",
+                  "type": "desktop",
+                  "top": 450,
+                  "left": 1,
+                  "width": 14,
+                  "height": 30,
+                  "componentId": "f87b4f57-f4c9-4c59-acc9-e0f521cbd40b",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            },
+            {
+              "id": "8b049248-2f96-42ed-b63d-411a25d9ac7f",
+              "name": "text9",
+              "type": "Text",
+              "pageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "parent": "9ff657e6-342d-47dd-ba6f-907fb073aa57",
+              "properties": {
+                "text": {
+                  "value": "Explanation"
+                }
+              },
+              "general": {},
+              "styles": {
+                "textSize": {
+                  "value": "24"
+                },
+                "fontWeight": {
+                  "value": "bold"
+                },
+                "isScrollRequired": {
+                  "value": "disabled"
+                }
+              },
+              "generalStyles": {},
+              "displayPreferences": {
+                "showOnDesktop": {
+                  "value": "{{true}}"
+                },
+                "showOnMobile": {
+                  "value": "{{false}}"
+                }
+              },
+              "validation": {},
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z",
+              "layouts": [
+                {
+                  "id": "a25c9faa-faec-454e-9a27-ffc9db898661",
+                  "type": "desktop",
+                  "top": 20,
+                  "left": 22,
+                  "width": 20,
+                  "height": 40,
+                  "componentId": "8b049248-2f96-42ed-b63d-411a25d9ac7f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                },
+                {
+                  "id": "d6e529fe-8654-458c-8f28-8e1257df698b",
+                  "type": "mobile",
+                  "top": 20,
+                  "left": 9,
+                  "width": 13.953488372093023,
+                  "height": 40,
+                  "componentId": "8b049248-2f96-42ed-b63d-411a25d9ac7f",
+                  "dimensionUnit": "count",
+                  "updatedAt": "2025-05-29T06:09:56.411Z"
+                }
+              ]
+            }
+          ],
+          "pages": [
+            {
+              "id": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "name": "Home",
+              "handle": "home",
+              "index": 1,
+              "disabled": false,
+              "hidden": false,
+              "icon": null,
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:57.527Z",
+              "autoComputeLayout": true,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "pageGroupIndex": 1,
+              "pageGroupId": null,
+              "isPageGroup": false
+            }
+          ],
+          "events": [
+            {
+              "id": "f34e185e-5596-4567-9c37-52963e80a4d8",
+              "name": "onClick",
+              "index": 0,
+              "event": {
+                "eventId": "onClick",
+                "message": "Hello world!",
+                "queryId": "8a0532b0-1d14-4640-8911-94e0d09a8695",
+                "actionId": "run-query",
+                "alertType": "info",
+                "queryName": "getCodeExplanation",
+                "parameters": {}
+              },
+              "sourceId": "4fd8d0cc-079c-4181-a579-b1bc1aa862ba",
+              "target": "component",
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.613Z"
+            }
+          ],
+          "dataQueries": [
+            {
+              "id": "8a0532b0-1d14-4640-8911-94e0d09a8695",
+              "name": "getCodeExplanation",
+              "options": {
+                "method": "post",
+                "url": "https://generativelanguage.googleapis.com/v1beta/{{components.dropdown1.value}}:generateContent",
+                "url_params": [
+                  [
+                    "key",
+                    "{{constants.GEMINI_API_KEY}}"
+                  ],
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "Content-Type",
+                    "application/json"
+                  ],
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": "{\n  \"contents\": [\n    {\n      \"parts\": [\n        {\n          \"text\": \"{{components.textarea1.value.replaceAll('\\n','\\\\n')}} - Generate a point-wise line by line explanation of this code in html formatting only. Keep only the explanation, and nothing else. {{components.dropdown2.value ? `The code is in ${components.dropdown2.value} language.` : 'Also identify the language of the code.'}}\"\n        }\n      ]\n    }\n  ]\n}",
+                "body_toggle": true,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "arrayValuesChanged": false,
+                "transformation": "// write your code here\n// return value will be set as data and the original data will be available as rawData\nreturn data.filter(row => row.amount > 1000);\n    "
+              },
+              "dataSourceId": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:56.411Z"
+            },
+            {
+              "id": "caf160ee-0092-4257-b093-786f64f1232c",
+              "name": "getGeminiModels",
+              "options": {
+                "method": "get",
+                "url": "https://generativelanguage.googleapis.com/v1beta/models?key={{constants.GEMINI_API_KEY}}",
+                "url_params": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "headers": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "body": [
+                  [
+                    "",
+                    ""
+                  ]
+                ],
+                "json_body": null,
+                "body_toggle": false,
+                "transformationLanguage": "javascript",
+                "enableTransformation": false,
+                "runOnPageLoad": true
+              },
+              "dataSourceId": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "createdAt": "2025-05-29T06:09:56.411Z",
+              "updatedAt": "2025-05-29T06:09:59.686Z"
+            }
+          ],
+          "dataSources": [
+            {
+              "id": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "name": "restapidefault",
+              "kind": "restapi",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-29T06:09:56.419Z",
+              "updatedAt": "2025-05-29T06:09:56.419Z"
+            },
+            {
+              "id": "a34b3744-cfa1-454c-860c-4b577aa56f51",
+              "name": "runjsdefault",
+              "kind": "runjs",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-29T06:09:56.430Z",
+              "updatedAt": "2025-05-29T06:09:56.430Z"
+            },
+            {
+              "id": "654651a6-a732-4472-af8d-6ee8144526f9",
+              "name": "runpydefault",
+              "kind": "runpy",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-29T06:09:56.442Z",
+              "updatedAt": "2025-05-29T06:09:56.442Z"
+            },
+            {
+              "id": "cbb7cbfd-95b8-4c98-8fb1-be162f68fe31",
+              "name": "tooljetdbdefault",
+              "kind": "tooljetdb",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-29T06:09:56.458Z",
+              "updatedAt": "2025-05-29T06:09:56.458Z"
+            },
+            {
+              "id": "a7eb95fc-fc8d-4155-b39f-165be9e4949f",
+              "name": "workflowsdefault",
+              "kind": "workflows",
+              "type": "static",
+              "pluginId": null,
+              "appVersionId": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "organizationId": null,
+              "scope": "local",
+              "createdAt": "2025-05-29T06:09:56.468Z",
+              "updatedAt": "2025-05-29T06:09:56.468Z"
+            }
+          ],
+          "appVersions": [
+            {
+              "id": "a051185c-6ceb-4c14-8965-f9cb8d004f31",
+              "name": "v1",
+              "definition": null,
+              "globalSettings": {
+                "hideHeader": true,
+                "appInMaintenance": false,
+                "canvasMaxWidth": 100,
+                "canvasMaxWidthType": "%",
+                "canvasMaxHeight": 2400,
+                "canvasBackgroundColor": "#edeff5",
+                "backgroundFxQuery": "",
+                "appMode": "auto"
+              },
+              "pageSettings": {
+                "properties": {
+                  "disableMenu": {
+                    "value": "{{true}}",
+                    "fxActive": false
+                  }
+                }
+              },
+              "showViewerNavigation": false,
+              "homePageId": "0e56c35f-cc5f-43a0-b227-6a3e19d7f6f3",
+              "appId": "8fb5fad3-825f-4c1f-89e0-73b846b3a429",
+              "currentEnvironmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "promotedFrom": null,
+              "createdAt": "2025-05-29T06:09:56.402Z",
+              "updatedAt": "2025-05-29T06:09:56.650Z"
+            }
+          ],
+          "appEnvironments": [
+            {
+              "id": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "organizationId": "1fed6302-2cdc-4027-8e92-2616dd5f0c71",
+              "name": "development",
+              "isDefault": false,
+              "priority": 1,
+              "enabled": true,
+              "createdAt": "2024-07-16T05:49:32.882Z",
+              "updatedAt": "2024-07-16T05:49:32.882Z"
+            },
+            {
+              "id": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "organizationId": "1fed6302-2cdc-4027-8e92-2616dd5f0c71",
+              "name": "staging",
+              "isDefault": false,
+              "priority": 2,
+              "enabled": true,
+              "createdAt": "2024-07-16T05:49:32.882Z",
+              "updatedAt": "2024-07-16T05:49:32.882Z"
+            },
+            {
+              "id": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "organizationId": "1fed6302-2cdc-4027-8e92-2616dd5f0c71",
+              "name": "production",
+              "isDefault": true,
+              "priority": 3,
+              "enabled": true,
+              "createdAt": "2024-07-16T05:49:32.882Z",
+              "updatedAt": "2024-07-16T05:49:32.882Z"
+            }
+          ],
+          "dataSourceOptions": [
+            {
+              "id": "5711416f-588c-49b7-8b6d-c2be1ef16a4c",
+              "dataSourceId": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "environmentId": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.428Z",
+              "updatedAt": "2025-05-29T06:09:56.428Z"
+            },
+            {
+              "id": "22aa631a-d6b6-45c0-97ba-88929bc67085",
+              "dataSourceId": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "environmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.428Z",
+              "updatedAt": "2025-05-29T06:09:56.428Z"
+            },
+            {
+              "id": "5b27a0fd-e4fc-4701-b0d0-586841969b89",
+              "dataSourceId": "36b1093d-95d9-4061-a754-c392e274d1ce",
+              "environmentId": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.428Z",
+              "updatedAt": "2025-05-29T06:09:56.428Z"
+            },
+            {
+              "id": "cd4a853f-d386-4777-87ee-de0eade35c70",
+              "dataSourceId": "a34b3744-cfa1-454c-860c-4b577aa56f51",
+              "environmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.440Z",
+              "updatedAt": "2025-05-29T06:09:56.440Z"
+            },
+            {
+              "id": "0e6e18ae-06a4-4427-96af-415212f99998",
+              "dataSourceId": "a34b3744-cfa1-454c-860c-4b577aa56f51",
+              "environmentId": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.440Z",
+              "updatedAt": "2025-05-29T06:09:56.440Z"
+            },
+            {
+              "id": "aa467943-a2b9-42ce-b830-2178b4e04129",
+              "dataSourceId": "a34b3744-cfa1-454c-860c-4b577aa56f51",
+              "environmentId": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.440Z",
+              "updatedAt": "2025-05-29T06:09:56.440Z"
+            },
+            {
+              "id": "226ac55e-907c-49c3-ad1a-500f81dfb5ca",
+              "dataSourceId": "654651a6-a732-4472-af8d-6ee8144526f9",
+              "environmentId": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.456Z",
+              "updatedAt": "2025-05-29T06:09:56.456Z"
+            },
+            {
+              "id": "01f80350-544b-4c52-90d9-dd4c8ae1cfef",
+              "dataSourceId": "654651a6-a732-4472-af8d-6ee8144526f9",
+              "environmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.456Z",
+              "updatedAt": "2025-05-29T06:09:56.456Z"
+            },
+            {
+              "id": "c3522e00-f165-426f-b8b1-88bdf48ff9ad",
+              "dataSourceId": "654651a6-a732-4472-af8d-6ee8144526f9",
+              "environmentId": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.456Z",
+              "updatedAt": "2025-05-29T06:09:56.456Z"
+            },
+            {
+              "id": "3ecc10b1-c039-40d6-a0d4-be6f7d183139",
+              "dataSourceId": "cbb7cbfd-95b8-4c98-8fb1-be162f68fe31",
+              "environmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.466Z",
+              "updatedAt": "2025-05-29T06:09:56.466Z"
+            },
+            {
+              "id": "19e756ba-3660-42e4-8ea6-b0884503be48",
+              "dataSourceId": "cbb7cbfd-95b8-4c98-8fb1-be162f68fe31",
+              "environmentId": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.466Z",
+              "updatedAt": "2025-05-29T06:09:56.466Z"
+            },
+            {
+              "id": "02933a79-0345-4b3d-b527-0fd0356db01a",
+              "dataSourceId": "cbb7cbfd-95b8-4c98-8fb1-be162f68fe31",
+              "environmentId": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.466Z",
+              "updatedAt": "2025-05-29T06:09:56.466Z"
+            },
+            {
+              "id": "fd248492-8cfd-4bc2-b4d3-9beed386efaf",
+              "dataSourceId": "a7eb95fc-fc8d-4155-b39f-165be9e4949f",
+              "environmentId": "80c72b1b-c956-465a-b675-044449b3dea9",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.476Z",
+              "updatedAt": "2025-05-29T06:09:56.476Z"
+            },
+            {
+              "id": "1f21bbac-99d7-499b-b446-c730e939b0eb",
+              "dataSourceId": "a7eb95fc-fc8d-4155-b39f-165be9e4949f",
+              "environmentId": "acb00ddd-8ffe-4719-b200-be91dd13ba0f",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.476Z",
+              "updatedAt": "2025-05-29T06:09:56.476Z"
+            },
+            {
+              "id": "9f64f756-e696-45c8-96dd-d4ead2b90a09",
+              "dataSourceId": "a7eb95fc-fc8d-4155-b39f-165be9e4949f",
+              "environmentId": "f9d49a54-8495-4cd9-8f63-b1f407403170",
+              "options": null,
+              "createdAt": "2025-05-29T06:09:56.476Z",
+              "updatedAt": "2025-05-29T06:09:56.476Z"
+            }
+          ],
+          "schemaDetails": {
+            "multiPages": true,
+            "multiEnv": true,
+            "globalDataSources": true
+          }
+        }
+      }
+    }
+  ],
+  "tooljet_version": "3.5.43-ee-lts"
+}
